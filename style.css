@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+.container{
+    background-color:coral ;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    /* margin-top: 150px; */
+}
+
+h2{
+    color: white;
+    padding-top: 80px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero{
+    width: 90%;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: auto;
+    gap: 10px;
+    
+}
+
+.hero1{
+    width: 30%;
+    height: 80%;
+    /* border: 2px solid black;   */
+    background-color: aliceblue;
+    border-radius: 0 0 0 15px;
+    border-left: 5px solid blue;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+    
+}
+
+.hero2{
+     width: 30%;
+    height: 80%;
+    /* border: 2px solid black;   */
+    background-color: aliceblue;
+    border-radius: 0 0 0 15px;
+    border-left: 5px solid red;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+
+}
+
+.hero3{
+     width: 30%;
+    height: 80%;
+    /* border: 2px solid black;   */
+    background-color: aliceblue;
+    border-radius: 0 0 0 15px;
+    border-left: 5px solid green;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+.one{
+    width: 25px;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 25px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+    border-color: blue;
+}
+.two{
+    width: 25px;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 25px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.three{
+    width: 25px;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 25px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+    border-color: green;
+}
+
+desk{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 85, 85);
+    ;
+}
