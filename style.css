@@ -83,6 +83,7 @@ h2{
     padding: 1em;
     border-radius: 5px;
     border-color: blue;
+    color: blue;
 }
 .two{
     width: 25px;
@@ -93,6 +94,7 @@ h2{
     padding: 1em;
     border-radius: 5px;
     border-color: red;
+    color: red;
 }
 
 .three{
@@ -104,9 +106,10 @@ h2{
     padding: 1em;
     border-radius: 5px;
     border-color: green;
+    color: green;
 }
 
-desk{
+.desk{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(87, 85, 85);
     ;
