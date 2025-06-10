@@ -114,3 +114,114 @@ h2{
     color: rgb(87, 85, 85);
     ;
 }
+
+/* ----------------------------- */
+/* Responsive Media Queries Below */
+/* ----------------------------- */
+
+/* For small screens: up to 600px (phones) */
+@media (max-width: 600px) {
+    .container {
+        height: auto;
+        padding: 20px 0;
+    }
+    h2 {
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    .hero {
+        flex-direction: column;
+        height: auto;
+        width: 98%;
+        gap: 20px;
+    }
+    .hero1, .hero2, .hero3 {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 10px;
+    }
+    .one, .two, .three {
+        width: 20px;
+        height: 16px;
+        font-size: 14px;
+        margin-top: 15px;
+        padding: 0.7em;
+    }
+    .description {
+        font-size: 15px;
+        padding: 0 8px;
+    }
+}
+
+/* For tablets: 601px - 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        height: 500px;
+        padding: 15px 0;
+    }
+    h2 {
+        font-size: 34px;
+        padding-top: 60px;
+    }
+    .hero {
+        flex-direction: row;
+        width: 96%;
+        height: 260px;
+        gap: 14px;
+    }
+    .hero1, .hero2, .hero3 {
+        width: 32%;
+        height: 85%;
+        padding-left: 22px;
+        padding-right: 22px;
+        border-radius: 0 0 0 12px;
+    }
+    .one, .two, .three {
+        width: 22px;
+        height: 18px;
+        font-size: 15px;
+        margin-top: 18px;
+        padding: 0.8em;
+    }
+    .description {
+        font-size: 17px;
+    }
+}
+
+/* For large screens: 1025px and up (desktops) */
+@media (min-width: 1025px) {
+    .container {
+        height: 600px;
+        padding: 0;
+    }
+    h2 {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    .hero {
+        flex-direction: row;
+        width: 90%;
+        height: 320px;
+        gap: 20px;
+    }
+    .hero1, .hero2, .hero3 {
+        width: 30%;
+        height: 80%;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 0 0 0 15px;
+    }
+    .one, .two, .three {
+        width: 25px;
+        height: 20px;
+        font-size: 16px;
+        margin-top: 25px;
+        padding: 1em;
+    }
+    .description {
+        font-size: 18px;
+    }
+}
